@@ -1,15 +1,17 @@
-*{
-  margin: 0px;  
-  padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body{
-    background-color:#dfdada;
+
+body {
+    background-color: #dfdada;
     padding: 10px 20px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.header-section{
+
+.header-section {
     background-image: url(./images/banner/banner1.png);
     height: 100vh;
     background-position: center;
@@ -18,24 +20,28 @@ body{
     width: 100%;
     text-align: right;
 }
-.header-content{
+
+.header-content {
     width: 30%;
     position: absolute;
     right: 0px;
     margin-right: 180px;
     top: 200px;
 }
-.header-content h1{
+
+.header-content h1 {
     font-size: 50px;
     line-height: 60px;
     font-weight: 700px;
 }
-.header-content p{
+
+.header-content p {
     margin-top: 30px;
     font-size: 14px;
     line-height: 24px;
 }
-.primary-btn{
+
+.primary-btn {
     margin-top: 30px;
     width: 140px;
     height: 50px;
@@ -44,4 +50,186 @@ body{
     border: none;
     color: white;
     font-size: 18px;
+}
+
+/* this is my failures section */
+main {
+    background-color: white;
+}
+
+.my-failures {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.my-failures-img {
+    width: 50%;
+    padding: 0px 50px 0px 200px;
+}
+
+.my-img {
+    width: 480px;
+    height: 600px;
+    
+}
+
+.my-content {
+    width: 50%;
+    padding: 40px 0px 0px 0px;
+}
+
+.my-content h2 {
+    font-size: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+
+.my-content p {
+    width: 50%;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: rgb(61, 59, 59);
+}
+
+.my-content ul {
+    list-style: none;
+    line-height: 25px;
+    color: rgb(61, 59, 59);
+}
+/* my plans */
+.my-plans{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    height: 700px;
+}
+.my-plans h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 50px ;
+    color: rgb(104, 97, 97);
+
+}
+.all-plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan img{
+    width: 80px;
+    height: 80px;
+}
+
+.plan h2{
+    margin: 15px 0px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: rgb(67, 63, 63);
+}
+
+.plan h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(124, 115, 115);
+    letter-spacing: 2px;
+}
+.call-now{
+    width: 90%;
+    margin: 100px auto;
+    background-image: url(./images/watch.png), linear-gradient(to right,rgba(254, 104, 71, 0.9),rgb(247, 238, 238,0.2));
+    background-blend-mode: overlay;
+    height: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.call{
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.call h1{
+    width: 400px;
+    font-size: 35px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+.btn{
+    margin-top: 20px;
+    width: 140px;
+    height: 50px;
+    background-color:#fff;
+    border-radius: 5px;
+    border: none;
+    color: #ff4500;
+    font-size: 18px;
+}
+/* footer section */
+.footer{
+    height: 500px;
+    background-color: black;
+}
+.footer-container{
+    width: 70%;
+    margin: 0px auto;
+    color: #fff;
+    display: flex;
+    padding: 100px 0px ;
+}
+.footer-content{
+    width: 50%;
+}
+.footer-content h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer-content p{
+    width: 400px;
+    font-size: 14px;
+    margin: 20px 0px;
+    line-height: 25px;
+    color: rgb(203, 196, 196);
+}
+
+.footer-content h4{
+    font-size: 14px;
+    margin: 20px 0px;
+    font-weight: 400;
+    color: rgb(203, 196, 196);
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.footer-form{
+    width: 50%;
+    padding-left: 250px;
+}
+
+.footer-form h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer-form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #afa2a2;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    margin: 20px 0px 0px;
+    padding-left: 20px;
 }
